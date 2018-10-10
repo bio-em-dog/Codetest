@@ -14,3 +14,13 @@ apt-get install vim
 apt-get install python2.7
 apt install python-pip
 pip install --upgrade pip
+
+#https://github.com/cycleuser/Kivy-CN/blob/master/01-Kivy-Installation.md 
+apt-get install software-properties-common python-software-properties
+add-apt-repository ppa:kivy-team/kivy
+apt-get update
+apt-get install python-kivy
+apt-get install python-kivy --fix-missing
+
+#windows
+#https://blog.csdn.net/ghking1/article/details/79609363
