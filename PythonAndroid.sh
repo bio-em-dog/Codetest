@@ -12,7 +12,7 @@ apt-get install vim
 
 #安装python2.7
 apt-get install python2.7
-apt install python-pip
+apt-get install python-pip
 pip install --upgrade pip
 
 #https://github.com/cycleuser/Kivy-CN/blob/master/01-Kivy-Installation.md 
