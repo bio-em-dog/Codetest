@@ -15,6 +15,7 @@ apt-get install python2.7
 apt-get install python-pip
 pip install --upgrade pip
 
+#p4a
 #https://github.com/cycleuser/Kivy-CN/blob/master/01-Kivy-Installation.md 
 apt-get install software-properties-common python-software-properties
 add-apt-repository ppa:kivy-team/kivy
@@ -22,5 +23,22 @@ apt-get update
 apt-get install python-kivy
 apt-get install python-kivy --fix-missing
 
-#windows
+#windows写代码环境部署
 #https://blog.csdn.net/ghking1/article/details/79609363
+
+
+#linux部署环境
+#p4a
+#https://blog.csdn.net/ghking1/article/details/79609363
+dpkg --add-architecture i386
+apt-get update
+apt-get install libssl-dev libffi-dev
+apt-get install cython==0.21
+apt-get install virtualenv
+apt-get install -y build-essential ccache git zlib1g-dev python2.7 python2.7-dev libncurses5:i386 libstdc++6:i386 zlib1g:i386 openjdk-8-jdk unzip ant ccache autoconf libtool
+
+
+
+#buildozer
+#https://blog.csdn.net/fangxuejiang/article/details/49405277
+pip install buildozer
