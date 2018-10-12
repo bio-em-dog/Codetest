@@ -32,10 +32,10 @@ apt-get -y install python-kivy --fix-missing
 #https://blog.csdn.net/ghking1/article/details/79609363
 dpkg --add-architecture i386
 apt-get update
-apt-get install libssl-dev libffi-dev
-apt-get install cython==0.21
-apt-get install virtualenv
-apt-get install -y build-essential ccache git zlib1g-dev python2.7 python2.7-dev libncurses5:i386 libstdc++6:i386 zlib1g:i386 openjdk-8-jdk unzip ant ccache autoconf libtool
+apt-get -y install libssl-dev libffi-dev
+apt-get -y install cython==0.21
+apt-get -y install virtualenv
+apt-get -y install -y build-essential ccache git zlib1g-dev python2.7 python2.7-dev libncurses5:i386 libstdc++6:i386 zlib1g:i386 openjdk-8-jdk unzip ant ccache autoconf libtool
 
 
 
