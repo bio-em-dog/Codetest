@@ -42,3 +42,11 @@ apt-get install -y build-essential ccache git zlib1g-dev python2.7 python2.7-dev
 #buildozer
 #https://blog.csdn.net/fangxuejiang/article/details/49405277
 pip install buildozer
+
+
+
+
+#docker图形界面 
+#docker run -itd -v /etc/localtime:/etc/localtime:ro -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --name test registry.docker-cn.com/library/ubuntu:16.04
+docker run -itd -v /home/em/data1/jia/JiaUbuntu:/JiaUbuntu --name Ubuntu -v /etc/localtime:/etc/localtime:ro -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE registry.docker-cn.com/library/ubuntu:16.04
+
