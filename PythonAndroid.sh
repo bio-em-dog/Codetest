@@ -17,11 +17,11 @@ pip install --upgrade pip
 
 #p4a
 #https://github.com/cycleuser/Kivy-CN/blob/master/01-Kivy-Installation.md 
-apt-get install software-properties-common python-software-properties
+apt-get -y install software-properties-common python-software-properties
 add-apt-repository ppa:kivy-team/kivy
 apt-get update
-apt-get install python-kivy
-apt-get install python-kivy --fix-missing
+apt-get -y install python-kivy
+apt-get -y install python-kivy --fix-missing
 
 #windows写代码环境部署
 #https://blog.csdn.net/ghking1/article/details/79609363
